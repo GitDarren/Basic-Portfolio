@@ -3,32 +3,30 @@ body    {
     width: 960px;
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }
 .headings   {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .navigation   {
-    height: 150px;
-    margin-bottom: 20px;
-    padding: 0px;
+    width: 100%;
     text-align: center;
 }
 
 .logo    {
-     float: left;
-     background-color: #4aaaa5;
+    float: left;
+    background-color: #4aaaa5;
     padding: 0;
     width: 200px;
     color: white;
     font-size: 32px;
     font-weight: bold;
-   
     text-align: center;
 }
 
 .nav-bar    {
-    Float: right;
+    float: right;
 }
 
 li  {
@@ -37,18 +35,24 @@ li  {
     border left: 1px solid grey;
 }
 
-.wrapper::before { 
+.nav-line  {
+    border-bottom: 2px solid lightgray; 
+    margin-bottom: 20px;
+}
+
+.clear::before {
     content: "";
-    display: block; 
+    display: block;
     clear: both;
 }
 
 .wrapper    {
-    background: url(.../images/concrete-texture.png);
+    background-image: url(../images/concrete-texture.png);
 }
 .about-me   {
+    background-color: white;
     float: left;
-    width: 70%;
+    width: 650px;
     padding: 20px;
     border: 1px solid gray;
     margin-bottom: 20px;
@@ -69,19 +73,20 @@ h2  {
 }
 
 .profile-pic    {
+    float: left;
+    margin: 0 15px 0 0;
     width: 200px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .intro-para {
-    float: left;
+    float: right;
 }
 
 .contact-info   {
-    float: right;
+    background-color: white;
+    float: left;
     padding: 10px;
-    width: 20%;
+    width: 270px;
     border: 1px solid gray;
 }
 
@@ -103,10 +108,11 @@ h2  {
     align-items: center;
 }
 
-/* .footer::after { 
+.clear::after {
     content: "";
-    display: block; 
-    clear: both; */
+    display: block;
+    clear: both;
+}
 
 .footer {
     clear: both;
