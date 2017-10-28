@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,54 @@
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-	<header class ="logo">
-		<h1>Darren Smith</h1>
-	</header>
+	<div class="navigation">
+		<header class="logo">
+			<h1 class="headings">Darren Smith</h1>
+		</header>
 
-	<nav>
-		<ul>
-			<li>About</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
-		</ul>
-	</nav>
-
-	<div class = "About-me">
-		<h2>About Me</h2>
-		<img src="assets/images/darren-Smith-Profile-Pic.jpg" alt="Darren Smith">
-		<P>I'm a true jack-of-all-trades that has followed my passions and worked my tail off to make it in every industry and company I've worked for. I have turned obstacles into opportunities and opportunities into achievements. At my core I'm an entrepreneur that looks for new ventures that will educate and challenge me.</P>
+		<nav class="nav-bar">
+			<ul>
+				<li>
+					<a href="index.html">About</a>
+				</li>
+				<li>
+					<a href="portfolio.html">Portfolio</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
 	</div>
 
-	<div class = "Contact-Info">
-		<h3>Connect with Me</h3>
-		<img src="assets/images/github-icon.png" alt="Github">
-		<img src="assets/images/linkedin-icon.png" alt="LinkedIn">
-		<img src="assets/images/stack-overflow-icon.png" alt="StackOverFlow">
+	<div class="wrapper">
 
+		<div class="about-me">
+			<h2 class="headings">About Me</h2>
+			<div class="long-line"></div>
+			<img class="profile-pic" src="assets/images/darren-Smith-Profile-Pic.jpg" alt="Darren Smith">
+			<p claas="intro-para">I'm a true jack-of-all-trades that has followed my passions and worked my tail off to make it in every industry and company
+				I've worked for. I have turned obstacles into opportunities and opportunities into achievements. At my core I'm an entrepreneur
+				that looks for new ventures that will educate and challenge me.</P>
+		</div>
+
+		<div class="contact-info">
+			<h3 class="headings connect-me">Connect with Me</h3>
+			<div class="short-line"></div>
+			<img class="small-icon" src="assets/images/github-icon.png" alt="Github">
+			<img class="small-icon" src="assets/images/linkedin-icon.png" alt="LinkedIn">
+			<img class="small-icon" src="assets/images/stack-overflow-icon.png" alt="StackOverFlow">
+
+		</div>
 	</div>
 
-	<footer>
+	<footer class="footer">
 		<p>&copy; Copyright 2017 Darren Smith</p>
 	</footer>
-	
+
 </body>
+
 </html>
