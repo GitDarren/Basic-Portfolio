@@ -44,7 +44,7 @@ li  {
 }
 
 .wrapper    {
-    background: url(/assets/images/concrete-texture.png);
+    background: url(.../images/concrete-texture.png);
 }
 .about-me   {
     float: left;
@@ -53,8 +53,6 @@ li  {
     border: 1px solid gray;
     margin-bottom: 20px;
 
-}
-.wrapper  {
 }
 
 h2  {
