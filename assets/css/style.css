@@ -9,19 +9,21 @@ body    {
 }
 
 .navigation   {
+    height: 150px;
     margin-bottom: 20px;
     padding: 0px;
     text-align: center;
 }
 
 .logo    {
-    background-color: #4aaaa5;
+     float: left;
+     background-color: #4aaaa5;
     padding: 0;
     width: 200px;
     color: white;
     font-size: 32px;
     font-weight: bold;
-    float: left;
+   
     text-align: center;
 }
 
@@ -42,7 +44,7 @@ li  {
 }
 
 .wrapper    {
-    background: url(assets/images/concrete-texture.png);
+    background: url(/assets/images/concrete-texture.png);
 }
 .about-me   {
     float: left;
